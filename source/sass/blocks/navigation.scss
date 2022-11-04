@@ -99,6 +99,10 @@
   background-position: center;
 }
 
+.navigation__btn-item {
+  transition: opacity 0.5s ease;
+}
+
 .navigation__btn-item p {
   color: $color-default-black;
   font-size: 12px;
@@ -110,5 +114,13 @@
 }
 
 .navigation__btn-item--active p {
+  opacity: 1;
+}
+
+.navigation__btn-item:hover {
+  opacity: 0.5;
+}
+
+.navigation__btn-item--active:hover {
   opacity: 1;
 }

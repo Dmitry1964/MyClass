@@ -76,6 +76,13 @@
   padding: 10px 15px;
   border: 1px solid $color-slate-blue;
   border-radius: 4px;
+  transition: background-color 0.5s ease,
+    opacity 0.3s ease;
+
+  &:hover {
+    background-color: $color-chost-white;
+    opacity: 0.5;
+  }
 }
 
 .main-page__sort {
@@ -128,8 +135,17 @@
   background-color: transparent;
   color: $color-slate-blue-30;
   cursor: pointer;
+  transition: background-color 0.3s ease;
 
   &--active {
     color: $color-slate-blue;
+  }
+
+  &:hover {
+    background-color: $color-default-black-10;
+  }
+
+  &--active:hover {
+    background-color: transparent;
   }
 }
