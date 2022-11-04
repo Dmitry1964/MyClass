@@ -21,6 +21,7 @@
   border-bottom: 1px solid $color-default-black-10;
 }
 
+
 .navigation__link {
   display: flex;
   align-items: center;
@@ -31,11 +32,23 @@
   line-height: 22px;
   font-weight: 500;
   border-radius: 4px;
+  transition: background-color 0.3s ease,
+    opacity 0.5s ease;
 
   &--active {
     color: $color-default-white;
     background-color: $color-slate-blue;
   }
+}
+
+.navigation__link:hover {
+  background-color: $color-chost-white;
+  opacity: 0.5;
+}
+
+.navigation__link--active:hover {
+  background-color: $color-slate-blue;
+  opacity: 1;
 }
 
 .navigation__link span {
