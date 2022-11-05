@@ -3,7 +3,7 @@ const courses = [
     img: 'img/picture-1.png',
     width: '142',
     height: '132',
-    title: 'Полный курс по javaScript',
+    title: 'Полный курс по JavaScript',
     description: 'Освой самый популярный язык программирования – JavaScript, и научись применять знания на практике',
     rating: '4.9',
     hours: '72 часа',

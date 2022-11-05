@@ -1,3 +1,4 @@
+import { changeThemePage } from "./page";
 
 const navigationList = document.querySelector('.navigation__list');
 const navigationLinks = navigationList.querySelectorAll('.navigation__link');
@@ -28,6 +29,7 @@ const themeButtonHendler = (evt) => {
 
   const themeButton = element.querySelector('.navigation__btn');
   const theme = themeButton.getAttribute('data-theme');
+  changeThemePage(theme);
 };
 
 navigationList.addEventListener('click', navigationLinkHendler);
