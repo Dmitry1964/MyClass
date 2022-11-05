@@ -141,6 +141,8 @@
   padding: 5px;
   display: flex;
 
+  transition: color 0.5s ease;
+
   &--active {
     color: $color-slate-blue;
   }

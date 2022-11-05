@@ -3,6 +3,7 @@
 import './courses';
 import './navigation';
 import './page';
+import './view-list';
 
 // ---------------------------------
 
