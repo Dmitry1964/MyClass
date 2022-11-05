@@ -2,6 +2,7 @@
 // import { initModals } from './modules/modals/init-modals';
 import './courses';
 import './navigation';
+import './page';
 
 // ---------------------------------
 

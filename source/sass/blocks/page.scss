@@ -1,6 +1,75 @@
-.page {
+.page--theme-light {
   color: $color-default-black;
 }
+
+
+
+.page--theme-dark {
+  color: $color-default-white;
+  background-color: $color-blue-charcoal;
+}
+
+.page--theme-dark .link {
+  color: $color-default-white;
+}
+
+// theme-texture
+
+.page--theme-texture {
+  color: $color-black-pearl;
+  background-color: transparent;
+  background-image: url("../../img/pattern.png");
+}
+
+.page--theme-texture .navigation__link {
+  color: $color-black-pearl;
+
+  &--active {
+    background-color: $color-black-pearl;
+    color: $color-default-white;
+  }
+
+  &--active:hover {
+    background-color: $color-black-pearl;
+  }
+}
+
+.page--theme-texture .link {
+  color: $color-black-pearl;
+}
+
+.page--theme-texture .user-nav__item {
+  background-color: $color-default-white;
+  box-shadow: 0px 2px 5px rgba(184, 184, 184, 0.25);
+}
+
+.page--theme-texture .main-page__link {
+  border-color: $color-black-pearl;
+  background-color: $color-default-white;
+}
+
+.page--theme-texture .main-page__view-btn {
+  background-color: $color-default-white;
+  color: $color-black-pearl-30;
+
+  &--active {
+    color: $color-black-pearl;
+  }
+}
+
+.page--theme-texture .navigation__btn-texture {
+  border: 1px solid $color-black-pearl;
+}
+
+.page--theme-texture .user-nav {
+  border-color: $color-black-pearl-30;
+}
+
+.page--theme-texture .navigation {
+  border-color: $color-black-pearl-30;
+}
+
+// ------------------------------------------------------------
 
 .page__wrapper {
   display: grid;

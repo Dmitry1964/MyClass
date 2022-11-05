@@ -35,14 +35,14 @@
   font-weight: 500;
   font-size: 12px;
   line-height: 15px;
-  color: $color-default-black;
+  // color: $color-default-black;
 }
 
 .main-page__broadcrumbs span {
   font-weight: 500;
   font-size: 12px;
   line-height: 15px;
-  color: $color-default-black;
+  // color: $color-default-black;
   opacity: 0.5;
 }
 
@@ -50,7 +50,7 @@
   font-weight: 700;
   font-size: 32px;
   line-height: 39px;
-  color: $color-default-black;
+  // color: $color-default-black;
   margin: 0 0 30px;
 }
 
@@ -58,7 +58,7 @@
   font-weight: 500;
   font-size: 18px;
   line-height: 22px;
-  color: $color-default-black;
+  // color: $color-default-black;
   margin: 0 0 20px;
 }
 
@@ -128,14 +128,18 @@
   background-color: $color-default-white;
   border-radius: 2px;
   box-shadow: 0px 2px 5px rgba(184, 184, 184, 0.25);
+  background-color: inherit;
 }
 
 .main-page__view-btn {
   border: none;
+  border-radius: 2px;
   background-color: transparent;
   color: $color-slate-blue-30;
   cursor: pointer;
   transition: background-color 0.3s ease;
+  padding: 5px;
+  display: flex;
 
   &--active {
     color: $color-slate-blue;
